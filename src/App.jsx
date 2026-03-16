@@ -1,10 +1,12 @@
-import './App.css'
+import MyForm from "./components/MyFormChallenge.jsx";
+import "./App.css";
 
 function App() {
-  return (
-    <>
-    </>
-  )
+    return (
+        <>
+            <MyForm />
+        </>
+    );
 }
 
-export default App
+export default App;
